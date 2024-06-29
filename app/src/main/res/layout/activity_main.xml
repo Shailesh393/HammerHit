@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@color/wh"
+    android:background="#58C8A9"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -13,78 +13,148 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp">
-
         <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:background="@drawable/button"
-            android:id="@+id/bt1"/>
-
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginLeft="60dp"
-            android:background="@drawable/button"
-            android:id="@+id/bt2"/>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp">
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:background="@drawable/button"
-            android:id="@+id/bt3"/>
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_marginLeft="60dp"
-            android:background="@drawable/button"
-            android:id="@+id/bt4"/>
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timer"
+            android:textStyle="bold"
+            android:id="@+id/timerButton"
+            android:layout_marginBottom="20dp"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
-            android:background="@drawable/button"
-            android:id="@+id/bt5"/>
-
+            android:text="Target:  "
+            android:textStyle="bold"
+            android:id="@+id/targetButton"
+            android:layout_marginBottom="20dp"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp">
-
         <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="1"
+            android:textSize="20dp"
+            android:textColor="@color/wh"
+            android:background="@drawable/button"
+            android:id="@+id/bt1"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="2"
+            android:textSize="20dp"
+            android:textColor="@color/wh"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/button"
+            android:id="@+id/bt2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="3"
+            android:textSize="20dp"
+            android:textColor="@color/wh"
+            android:background="@drawable/button"
+            android:id="@+id/bt3"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="4"
+            android:textSize="20dp"
+            android:textColor="@color/wh"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/button"
+            android:id="@+id/bt4"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="5"
+            android:textSize="20dp"
+            android:textColor="@color/wh"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/button"
+            android:id="@+id/bt5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="6"
+            android:textSize="20dp"
+            android:textColor="@color/wh"
             android:background="@drawable/button"
             android:id="@+id/bt6"/>
-
         <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="7"
+            android:textSize="20dp"
+            android:textColor="@color/wh"
             android:layout_marginLeft="55dp"
             android:background="@drawable/button"
             android:id="@+id/bt7"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="8"
+            android:textSize="20dp"
+            android:textColor="@color/wh"
+            android:layout_marginLeft="55dp"
+            android:background="@drawable/button"
+            android:id="@+id/bt8"/>
+    </LinearLayout>
 
-
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="9"
+            android:textSize="20dp"
+            android:textColor="@color/wh"
+            android:background="@drawable/button"
+            android:id="@+id/bt9"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="10"
+            android:textSize="20dp"
+            android:textColor="@color/wh"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/button"
+            android:id="@+id/bt10"/>
     </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Score"
+        android:text="Score: 0"
         android:textColor="@color/black"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textStyle="bold"
-        android:layout_marginTop="140dp"
-        android:id="@+id/Score"/>
+        android:layout_marginTop="40dp"
+        android:id="@+id/scoreTextView"/>
 
-
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start New"
+        android:id="@+id/startNew"
+        android:layout_marginTop="20dp"/>
 </LinearLayout>
