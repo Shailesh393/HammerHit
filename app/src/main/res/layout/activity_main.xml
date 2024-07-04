@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#58C8A9"
+    android:background="@drawable/grad_bg"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -40,7 +40,7 @@
             android:layout_height="70dp"
             android:text="1"
             android:textSize="20dp"
-            android:textColor="@color/wh"
+            android:textColor="@color/black"
             android:background="@drawable/button"
             android:id="@+id/bt1"/>
         <androidx.appcompat.widget.AppCompatButton
@@ -48,7 +48,7 @@
             android:layout_height="70dp"
             android:text="2"
             android:textSize="20dp"
-            android:textColor="@color/wh"
+            android:textColor="@color/black"
             android:layout_marginLeft="60dp"
             android:background="@drawable/button"
             android:id="@+id/bt2"/>
@@ -63,7 +63,7 @@
             android:layout_height="70dp"
             android:text="3"
             android:textSize="20dp"
-            android:textColor="@color/wh"
+            android:textColor="@color/black"
             android:background="@drawable/button"
             android:id="@+id/bt3"/>
         <androidx.appcompat.widget.AppCompatButton
@@ -71,7 +71,7 @@
             android:layout_height="70dp"
             android:text="4"
             android:textSize="20dp"
-            android:textColor="@color/wh"
+            android:textColor="@color/black"
             android:layout_marginLeft="60dp"
             android:background="@drawable/button"
             android:id="@+id/bt4"/>
@@ -80,7 +80,7 @@
             android:layout_height="70dp"
             android:text="5"
             android:textSize="20dp"
-            android:textColor="@color/wh"
+            android:textColor="@color/black"
             android:layout_marginLeft="60dp"
             android:background="@drawable/button"
             android:id="@+id/bt5"/>
@@ -95,7 +95,7 @@
             android:layout_height="70dp"
             android:text="6"
             android:textSize="20dp"
-            android:textColor="@color/wh"
+            android:textColor="@color/black"
             android:background="@drawable/button"
             android:id="@+id/bt6"/>
         <androidx.appcompat.widget.AppCompatButton
@@ -103,7 +103,7 @@
             android:layout_height="70dp"
             android:text="7"
             android:textSize="20dp"
-            android:textColor="@color/wh"
+            android:textColor="@color/black"
             android:layout_marginLeft="55dp"
             android:background="@drawable/button"
             android:id="@+id/bt7"/>
@@ -112,7 +112,7 @@
             android:layout_height="70dp"
             android:text="8"
             android:textSize="20dp"
-            android:textColor="@color/wh"
+            android:textColor="@color/black"
             android:layout_marginLeft="55dp"
             android:background="@drawable/button"
             android:id="@+id/bt8"/>
@@ -127,7 +127,7 @@
             android:layout_height="70dp"
             android:text="9"
             android:textSize="20dp"
-            android:textColor="@color/wh"
+            android:textColor="@color/black"
             android:background="@drawable/button"
             android:id="@+id/bt9"/>
         <androidx.appcompat.widget.AppCompatButton
@@ -135,7 +135,7 @@
             android:layout_height="70dp"
             android:text="10"
             android:textSize="20dp"
-            android:textColor="@color/wh"
+            android:textColor="@color/black"
             android:layout_marginLeft="60dp"
             android:background="@drawable/button"
             android:id="@+id/bt10"/>

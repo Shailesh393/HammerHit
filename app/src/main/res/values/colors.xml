@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="black">#FF000000</color>
-    <color name="wh">#FFEB3B</color>
-    <color name="whi">#673AB7</color>
-    <color name="whit">#DD2C68</color>
-    <color name="white">#540CD5</color>
-    <color name="whie">#EA981E</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="lavender">#673AB7</color>
+    <color name="red">#DD2C68</color>
+    <color name="blue">#540CD5</color>
+    <color name="orange">#EA981E</color>
 
 </resources>
